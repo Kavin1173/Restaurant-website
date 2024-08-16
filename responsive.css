@@ -1,0 +1,182 @@
+/* responsive.css */
+
+/* Base styles for screens smaller than or equal to 1013px */
+@media (max-width: 1013px) {
+    header {
+        padding: 0 20px;
+    }
+
+    .hero {
+        height: 70vh; /* Adjust height for smaller screens */
+    }
+
+    .hero .content {
+        top: 30%; /* Adjust position for smaller screens */
+    }
+
+    .about img {
+        width: 100%; /* Make image responsive */
+        height: auto;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recipe .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe .card {
+        width: 90%;
+        max-width: 300px; /* Adjust card size */
+    }
+
+    .categories .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories .ca-card {
+        width: 90%;
+        max-width: 300px; /* Adjust category card size */
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 90%;
+        max-width: 500px; /* Adjust contact section width */
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icon {
+        font-size: 24px; /* Adjust icon size */
+    }
+}
+
+
+
+
+
+/* Additional styles for screens smaller than or equal to 979px */
+@media (max-width: 944px) {
+    header {
+        flex-direction: column;
+        align-items: left;
+        padding: 10px;
+    }.about-te
+
+    .nav-bar ul {
+        flex-direction:row;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar ul li {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar ul li a {
+        padding: 10px;
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    .hero {
+        height: 50vh; /* Further adjust height */
+    }
+
+    .hero .content {
+        bottom: 50%; /* Adjust position */
+
+    }
+    h1{
+        color: #213032;
+        font-size: 50px;
+        margin: 20px 0px 20px;
+    }
+    h3{
+        color: #ffffff;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    h4{
+        color: #edffef;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+    .about-text{
+        font-size: 9;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .recipe .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipe .card {
+        width: 95%;
+        max-width: 250px; /* Further adjust card size */
+    }
+
+    .categories .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories .ca-card {
+        width: 95%;
+        max-width: 250px; /* Further adjust category card size */
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 90%;
+        max-width: 400px; /* Further adjust contact section width */
+    }
+
+    footer {
+        font-size: 12px; /* Reduce footer font size */
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icon {
+        font-size: 20px; /* Further adjust icon size */
+    }
+}
+
+
+
+
+
+@media (max-width: 506px) {
+.about-text{
+    font-size: 9;
+}
+}
